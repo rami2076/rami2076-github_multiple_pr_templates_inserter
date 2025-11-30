@@ -52,6 +52,7 @@ function fillPlaceholdersWithModal(template) {
 
       const input = document.createElement("input");
       input.name = key;
+      input.autocomplete = "off";
       input.style.width = "100%";
       input.style.padding = "6px";
       input.style.borderRadius = "6px";
